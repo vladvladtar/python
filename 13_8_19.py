@@ -21,5 +21,6 @@ for i in range (k):# цикл .
         summa = summa + 990
     elif  a > 25:
         summa = summa + 1390
-
+if k>3:
+    summa = summa - summa/10#скидка 10% при покупке больше 3х билетов      
 print ("Cумма к оплате : " , summa) # печать значения суммы
